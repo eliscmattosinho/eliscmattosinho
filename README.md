@@ -51,7 +51,7 @@
 ## Estatísticas GitHub
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=eliscmattosinho&show_icons=true&bg_color=00000000&title_color=fefefe&custom_title=Elis+Christina+Mattosinho+-+Web/Mobile+Developer&border_color=fefefe&text_color=fefefe&icon_color=FFDF2B" alt="GitHub Stats">
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=eliscmattosinho&show_icons=true&bg_color=00000000&title_color=fefefe&custom_title=Elis+Mattosinho+-+Web+Developer&border_color=fefefe&text_color=fefefe&icon_color=FFDF2B" alt="GitHub Stats">
   <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eliscmattosinho&layout=compact&bg_color=00000000&title_color=fefefe&border_color=fefefe&text_color=fefefe&icon_color=FFDF2B" alt="Top Languages">
 </div>
 
