@@ -12,7 +12,7 @@
 
   ### Contato e redes profissionais:
 
-  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eliscmattosinho/) [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@eliscmattosinho) [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eliscmattosinho@gmail.com) [![Behance](https://img.shields.io/badge/Behance-12100E?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/elismattosinho)
+  [![LinkedIn](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eliscmattosinho/) [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@eliscmattosinho) [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eliscmattosinho@gmail.com) [![Behance](https://img.shields.io/badge/Behance-12100E?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/eliscmattosinho)
 </div>
 
 ---
