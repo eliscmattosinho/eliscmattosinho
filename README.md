@@ -58,8 +58,13 @@
 ## GitHub Statistics
 
 <div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=eliscmattosinho&show_icons=true&bg_color=00000000&title_color=f87c11&custom_title=Elis+Mattosinho+-+Software+Engineer&border_color=efefef&text_color=efefef&icon_color=FFDF2B" alt="GitHub Stats">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=eliscmattosinho&layout=compact&bg_color=00000000&title_color=f87c11&border_color=efefef&text_color=efefef&icon_color=FFDF2B" alt="Top Languages">
+  <img height="160"
+       src="https://github-readme-stats-sigma-five.vercel.app/api?username=eliscmattosinho&show_icons=true&bg_color=00000000&title_color=f87c11&custom_title=Elis+Mattosinho+-+Software+Engineer&border_color=efefef&text_color=efefef&icon_color=FFDF2B"
+       alt="GitHub Stats" />
+
+  <img height="160"
+       src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=eliscmattosinho&layout=compact&bg_color=00000000&title_color=f87c11&border_color=efefef&text_color=efefef"
+       alt="Top Languages" />
 </div>
 
 <br />
