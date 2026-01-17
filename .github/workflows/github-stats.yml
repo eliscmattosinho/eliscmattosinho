@@ -2,8 +2,8 @@ name: Generate GitHub Stats
 
 on:
   schedule:
-    - cron: '0 0 * * *' 
-  workflow_dispatch: 
+    - cron: '0 0 * * *' # atualiza diariamente à meia-noite
+  workflow_dispatch: # permite rodar manualmente
 
 jobs:
   generate-stats:
@@ -13,44 +13,23 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20'
+      - name: Create img folder if not exists
+        run: mkdir -p ./img
 
-      - name: Install dependencies
+      - name: Download Profile Details SVG
         run: |
-          npm install @vn7n24fzkq/github-profile-summary-cards-svg
+          curl -s -o ./img/github-profile-details.svg \
+          "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=eliscmattosinho&theme=radical"
 
-      - name: Generate Profile Details SVG
+      - name: Download Stats SVG
         run: |
-          npx github-profile-summary-cards-svg \
-            --username eliscmattosinho \
-            --type profile-details \
-            --theme radical \
-            --textColor f87c11 \
-            --iconColor f87c11 \
-            --output ./img/github-profile-details.svg
+          curl -s -o ./img/github-stats.svg \
+          "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=eliscmattosinho&theme=radical"
 
-      - name: Generate Stats SVG
+      - name: Download Repos per Language SVG
         run: |
-          npx github-profile-summary-cards-svg \
-            --username eliscmattosinho \
-            --type stats \
-            --theme radical \
-            --textColor f87c11 \
-            --iconColor f87c11 \
-            --output ./img/github-stats.svg
-
-      - name: Generate Repos per Language SVG
-        run: |
-          npx github-profile-summary-cards-svg \
-            --username eliscmattosinho \
-            --type repos-per-language \
-            --theme radical \
-            --textColor f87c11 \
-            --iconColor f87c11 \
-            --output ./img/repos-per-language.svg
+          curl -s -o ./img/repos-per-language.svg \
+          "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=eliscmattosinho&theme=radical"
 
       - name: Commit and push changes
         env:
