@@ -1,10 +1,7 @@
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=60&pause=1000&color=f87c11&center=true&vCenter=true&random=true&width=1200&height=100&lines=Hey%2C+I'm+Elis.+It's+a+pleasure!;Front-End+Developer." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=60&pause=1000&color=f87c11&center=true&vCenter=true&random=true&width=1200&height=100&lines=Hey%2C+I'm+Elis.+It's+a+pleasure!;Frontend+Developer." alt="Typing SVG" />
 </a>
 
-<hr />
-
-<br />
 <br />
 
 <img src="img/see-my-projects.png" alt="presentation-banner" />
@@ -59,13 +56,13 @@
 ## GitHub Statistics
 
 <div align="center">
-  <img height="160" src="img/github-profile-details.svg" alt="GitHub Profile Details" />
+  <img height="190" src="img/github-profile-details.svg" alt="GitHub Profile Details" />
 
   <br />
 
-  <img height="160" src="img/github-stats.svg" alt="GitHub Stats" />
-  <img height="160" src="img/repos-per-language.svg" alt="Top Languages" />
-  
+  <img height="195" src="img/github-stats.svg" alt="GitHub Stats" />
+  <img height="195" src="img/repos-per-language.svg" alt="Top Languages" />
+
   <br />
 
 <div align="center">
@@ -79,10 +76,11 @@
 
 <br />
 <br />
-<br />
 
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=40&pause=1000&color=F87C11&center=true&vCenter=true&random=true&width=1200&height=100&lines=Like+this%3F+Let+me+now+%E2%80%94+Send+me+a+message." alt="Typing SVG" />
 </a>
+
+<br />
 
 <img src="img/see-my-projects-end.png" alt="presentation-banner" />
