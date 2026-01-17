@@ -1,5 +1,8 @@
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=60&pause=1000&color=f87c11&center=true&vCenter=true&random=true&width=1200&height=100&lines=Hey%2C+I'm+Elis.+It's+a+pleasure!;Front-End+Developer." alt="Typing SVG" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=60&pause=1000&color=f87c11&center=true&vCenter=true&random=true&width=1200&height=100&lines=Hey%2C+I'm+Elis.+It's+a+pleasure!;Front-End+Developer."
+    alt="Typing SVG"
+  />
 </a>
 
 <hr />
@@ -14,6 +17,7 @@
 <div>
 
 ## About me
+
 - Technologist in **Systems Analysis and Development** from Fatec Ourinhos.
 - **Values:** Commitment to value creation, continuous learning, and teamwork collaboration.
 
@@ -64,16 +68,13 @@
 </div>
 
 <br />
-
-<!-- <div align="center">
-  <img src="stats/github-activity.svg" alt="Contribution Graph" />
-</div> -->
-
-<br />
 <br />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=40&pause=1000&color=F87C11&center=true&vCenter=true&random=true&width=1200&height=100&lines=Like+this%3F+Let+me+know+%E2%80%94+Send+me+a+message." alt="Typing SVG" />
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=40&pause=1000&color=F87C11&center=true&vCenter=true&random=true&width=1200&height=100&lines=Like+this%3F+Let+me+know+%E2%80%94+Send+me+a+message."
+    alt="Typing SVG"
+  />
 </a>
 
 <img src="img/see-my-projects-end.png" alt="presentation-banner" />

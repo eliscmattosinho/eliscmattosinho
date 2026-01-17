@@ -20,22 +20,22 @@ jobs:
         run: mkdir -p stats
 
       - name: Download GitHub Stats
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           curl -L \
+            -H "Authorization: Bearer $GH_TOKEN" \
             "https://github-readme-stats.vercel.app/api?username=eliscmattosinho&show_icons=true&bg_color=00000000&title_color=f87c11&text_color=efefef&icon_color=FFDF2B&border_color=efefef&custom_title=Elis+Mattosinho+-+Software+Engineer" \
             -o stats/github-stats.svg
 
       - name: Download GitHub Streak
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           curl -L \
+            -H "Authorization: Bearer $GH_TOKEN" \
             "https://streak-stats.demolab.com?user=eliscmattosinho&background=00000000&ring=f87c11&fire=f87c11&currStreakLabel=efefef&sideLabels=efefef&dates=efefef&border=efefef" \
             -o stats/github-streak.svg
-
-      # - name: Download Contribution Graph
-      #   run: |
-      #     curl -L \
-      #       "https://github-readme-activity-graph.vercel.app/graph?username=eliscmattosinho&bg_color=00000000&color=efefef&line=f87c11&point=FFDF2B&area=true&hide_border=true" \
-      #       -o stats/github-activity.svg
 
       - name: Commit and push changes
         run: |
