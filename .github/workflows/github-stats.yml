@@ -1,0 +1,46 @@
+name: Update GitHub Profile Stats
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create stats directory
+        run: mkdir -p stats
+
+      - name: Download GitHub Stats
+        run: |
+          curl -L \
+            "https://github-readme-stats.vercel.app/api?username=eliscmattosinho&show_icons=true&bg_color=00000000&title_color=f87c11&text_color=efefef&icon_color=FFDF2B&border_color=efefef&custom_title=Elis+Mattosinho+-+Software+Engineer" \
+            -o stats/github-stats.svg
+
+      - name: Download GitHub Streak
+        run: |
+          curl -L \
+            "https://streak-stats.demolab.com?user=eliscmattosinho&background=00000000&ring=f87c11&fire=f87c11&currStreakLabel=efefef&sideLabels=efefef&dates=efefef&border=efefef" \
+            -o stats/github-streak.svg
+
+      - name: Download Contribution Graph
+        run: |
+          curl -L \
+            "https://github-readme-activity-graph.vercel.app/graph?username=eliscmattosinho&bg_color=00000000&color=efefef&line=f87c11&point=FFDF2B&area=true&hide_border=true" \
+            -o stats/github-activity.svg
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add stats
+          git commit -m "chore: update github profile stats" || exit 0
+          git push
