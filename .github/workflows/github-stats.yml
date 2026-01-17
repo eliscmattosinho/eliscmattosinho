@@ -1,12 +1,9 @@
-name: Update GitHub Profile Stats
+name: Generate GitHub Stats
 
 on:
   schedule:
-    - cron: "0 3 * * *"
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: '0 0 * * *' 
+  workflow_dispatch: 
 
 jobs:
   generate-stats:
@@ -14,60 +11,53 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      - name: Create stats directory
-        run: mkdir -p stats
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
 
-      # GitHub Stats (COM FALLBACK)
-      - name: Download GitHub Stats (with fallback)
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install dependencies
         run: |
-          set +e
+          npm install @vn7n24fzkq/github-profile-summary-cards-svg
 
-          echo "Downloading GitHub Stats..."
-          curl -fL \
-            -H "Authorization: Bearer $GH_TOKEN" \
-            "https://github-readme-stats.vercel.app/api?username=eliscmattosinho&show_icons=true&bg_color=00000000&title_color=f87c11&text_color=efefef&icon_color=FFDF2B&border_color=efefef&custom_title=Elis+Mattosinho+-+Software+Engineer" \
-            -o stats/github-stats.svg
-
-          STATUS=$?
-
-          if [ $STATUS -ne 0 ]; then
-            echo "GitHub Stats unavailable (503/HTML). Keeping previous SVG."
-            git checkout -- stats/github-stats.svg 2>/dev/null || true
-          else
-            echo "GitHub Stats updated successfully."
-          fi
-
-      # GitHub Streak (COM FALLBACK)
-      - name: Download GitHub Streak (with fallback)
+      - name: Generate Profile Details SVG
         run: |
-          set +e
+          npx github-profile-summary-cards-svg \
+            --username eliscmattosinho \
+            --type profile-details \
+            --theme radical \
+            --textColor f87c11 \
+            --iconColor f87c11 \
+            --output ./img/github-profile-details.svg
 
-          echo "Downloading GitHub Streak..."
-          curl -fL \
-            "https://streak-stats.demolab.com?user=eliscmattosinho&background=00000000&ring=f87c11&fire=f87c11&currStreakLabel=efefef&sideLabels=efefef&dates=efefef&border=efefef" \
-            -o stats/github-streak.svg
+      - name: Generate Stats SVG
+        run: |
+          npx github-profile-summary-cards-svg \
+            --username eliscmattosinho \
+            --type stats \
+            --theme radical \
+            --textColor f87c11 \
+            --iconColor f87c11 \
+            --output ./img/github-stats.svg
 
-          STATUS=$?
+      - name: Generate Repos per Language SVG
+        run: |
+          npx github-profile-summary-cards-svg \
+            --username eliscmattosinho \
+            --type repos-per-language \
+            --theme radical \
+            --textColor f87c11 \
+            --iconColor f87c11 \
+            --output ./img/repos-per-language.svg
 
-          if [ $STATUS -ne 0 ]; then
-            echo "GitHub Streak unavailable. Keeping previous SVG."
-            git checkout -- stats/github-streak.svg 2>/dev/null || true
-          else
-            echo "GitHub Streak updated successfully."
-          fi
-
-      # Commit somente se houver mudança
       - name: Commit and push changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-
-          git add stats
-          git diff --cached --quiet && exit 0
-
-          git commit -m "chore: update github profile stats"
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add ./img/*.svg
+          git commit -m "chore: update GitHub stats SVGs" || echo "No changes to commit"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} HEAD:main
