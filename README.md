@@ -63,8 +63,8 @@
 ## GitHub Statistics
 
 <div align="center">
-  <img height="165" src="stats/github-stats.svg" alt="GitHub Stats" />
-  <img height="165" src="stats/github-streak.svg" alt="GitHub Streak" />
+  <img src="stats/github-stats.svg" height="160" alt="GitHub Stats" />
+  <img src="stats/github-streak.svg" height="160" alt="GitHub Streak" />
 </div>
 
 <br />
