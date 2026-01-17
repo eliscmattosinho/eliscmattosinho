@@ -65,9 +65,9 @@
 
 <br />
 
-<div align="center">
+<!-- <div align="center">
   <img src="stats/github-activity.svg" alt="Contribution Graph" />
-</div>
+</div> -->
 
 <br />
 <br />
