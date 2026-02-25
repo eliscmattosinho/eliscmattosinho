@@ -1,5 +1,5 @@
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=60&pause=1000&color=f87c11&center=true&vCenter=true&random=true&width=1200&height=100&lines=Hey%2C+I'm+Elis.+It's+a+pleasure!;Frontend+Developer." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=60&pause=1000&color=f87c11&center=true&vCenter=true&random=true&width=1200&height=100&lines=Hey%2C+I'm+Elis.+It's+a+pleasure!;I'm+a+Web+Frontend+Developer." alt="Typing SVG" />
 </a>
 
 <br />
@@ -8,17 +8,17 @@
 
 <br />
 
-## About me
+## 🧩 About me
 
 - Technologist in **Systems Analysis and Development** from Fatec Ourinhos.
 - 🔍 Curious; 📚 bookstan; 🐾 pet tutor; and 👩‍🌾 raised in the countryside.
-- I love learn, create and build better places.
+- I love learning, creating and building better places.
 
 ### Values
 
 ![Value Creation](https://img.shields.io/badge/Commitment%20to%20Value%20Creation-2C3E50?style=for-the-badge&logo=rocket&logoColor=white)
 ![Continuous Learning](https://img.shields.io/badge/Continuous%20Learning-2C3E50?style=for-the-badge&logo=bookstack&logoColor=white)
-![Teamwork](https://img.shields.io/badge/Teamwork%20Collaboration-2C3E50?style=for-the-badge&logo=handshake&logoColor=white)
+![Teamwork](https://img.shields.io/badge/Team%20Collaboration-2C3E50?style=for-the-badge&logo=handshake&logoColor=white)
 
 ### Contact
 
@@ -30,12 +30,12 @@
 
 <br />
 
-## Competencies
+## 🌐 Exploring
 
 ### Areas
 
 ![Product Development](https://img.shields.io/badge/Digital%20Product%20Development-8A2BE2?style=for-the-badge&logo=react&logoColor=white)
-![UI/UX](https://img.shields.io/badge/Interface%20Design%20(UI%2FUX)-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![UI/UX](<https://img.shields.io/badge/Interface%20Design%20(UI%2FUX)-F24E1E?style=for-the-badge&logo=figma&logoColor=white>)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Automation](https://img.shields.io/badge/Process%20Automation-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
@@ -54,23 +54,21 @@
 ### Hard Skills
 
 <div>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="55" title="JavaScript" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="55" title="TypeScript" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="55" title="React" />
-
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="55" title="Tailwind CSS" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="55" title="Sass" />
-
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="55" title="Node.js" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="55" title="Python" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="55" title="PHP" />
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="55" title="Git" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="55" title="JavaScript" alt="JavaScript Logo" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="55" title="TypeScript" alt="TypeScript Logo" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="55" title="React" alt="React Logo" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="55" title="Tailwind CSS" alt="Tailwind CSS Logo" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="55" title="Sass" alt="Sass Logo" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="55" title="Node.js" alt="Node.js Logo" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="55" title="Python" alt="Python Logo" />
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="55" title="PHP" alt="PHP Logo" />
+<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="55" title="Git" alt="Git Logo" />
 </div>
 
 <br />
 <br />
 
-## GitHub Statistics
+## 📊 GitHub Statistics
 
 <div align="center">
   <img height="190" src="img/github-profile-details.svg" alt="GitHub Profile Details" />
@@ -95,7 +93,7 @@
 <br />
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=40&pause=1000&color=F87C11&center=true&vCenter=true&random=true&width=1200&height=100&lines=Like+this%3F+Let+me+now+%E2%80%94+Send+me+a+message." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=600&size=40&pause=1000&color=F87C11&center=true&vCenter=true&random=true&width=1200&height=100&lines=Like+it%3F+Let+me+know+%E2%80%94+Send+me+a+message." alt="Typing SVG" />
 </a>
 
 <br />
