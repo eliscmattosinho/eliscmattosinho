@@ -11,14 +11,22 @@
 ## About me
 
 - Technologist in **Systems Analysis and Development** from Fatec Ourinhos.
-- **Values:** Commitment to value creation, continuous learning, and teamwork collaboration.
+- 🔍 Curious; 📚 bookstan; 🐾 pet tutor; and 👩‍🌾 raised in the countryside.
+- I love learn, create and build better places.
+
+### Values
+
+![Value Creation](https://img.shields.io/badge/Commitment%20to%20Value%20Creation-2C3E50?style=for-the-badge&logo=rocket&logoColor=white)
+![Continuous Learning](https://img.shields.io/badge/Continuous%20Learning-2C3E50?style=for-the-badge&logo=bookstack&logoColor=white)
+![Teamwork](https://img.shields.io/badge/Teamwork%20Collaboration-2C3E50?style=for-the-badge&logo=handshake&logoColor=white)
 
 ### Contact
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/eliscmattosinho/)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/hey_iamelis/)
 [![Medium](https://img.shields.io/badge/Medium-12100E?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@eliscmattosinho)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:eliscmattosinho@gmail.com)
-[![Behance](https://img.shields.io/badge/Behance-12100E?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/eliscmattosinho)
+[![Behance](https://img.shields.io/badge/Behance-0057FF?style=for-the-badge&logo=behance&logoColor=white)](https://www.behance.net/eliscmattosinho)
 
 <br />
 
@@ -26,28 +34,37 @@
 
 ### Areas
 
-- Digital product development
-- Interface design (UI/UX)
-- Machine Learning
-- Process automation
+![Product Development](https://img.shields.io/badge/Digital%20Product%20Development-8A2BE2?style=for-the-badge&logo=react&logoColor=white)
+![UI/UX](https://img.shields.io/badge/Interface%20Design%20(UI%2FUX)-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Automation](https://img.shields.io/badge/Process%20Automation-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+<br />
 
 ### Soft Skills
 
-- Self-taught and committed to continuous learning
-- Effective collaboration in multidisciplinary teams
-- Organization and time management
-- Creativity applied to problem-solving
-- Resilience and adaptability in the face of challenges
+- 🧠 Self-taught and committed to continuous learning
+- 🤝 Effective collaboration in multidisciplinary teams
+- 🕰️ Organization and time management
+- ✨ Creativity applied to problem-solving
+- 💪 Resilience and adaptability in the face of challenges
+
+<br />
 
 ### Hard Skills
 
-<div style="display: flex; align-items: center;">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="60" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="60" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="60" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="60" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="60" />
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="60" />
+<div>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="55" title="JavaScript" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="55" title="TypeScript" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" width="55" title="React" />
+
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="55" title="Tailwind CSS" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" width="55" title="Sass" />
+
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="55" title="Node.js" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="55" title="Python" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="55" title="PHP" />
+  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="55" title="Git" />
 </div>
 
 <br />
